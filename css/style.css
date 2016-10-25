@@ -8,17 +8,45 @@
 html,
 body {
 	margin: 0;
+	font: 16px sans-serif;
 }
-
 .container {
 	margin: 0 auto;
 	width: 1170px;
 }
-
+header {
+	background-color: lightskyblue;
+	padding: 2px 0;
+}
 .clear {
 	clear: both;
+	background-color: lightskyblue;
+	padding: 5px 15px;
+	margin-bottom: 20px;
 }
-
+img {
+	border: 5px solid lightgray;
+}
+.instructions {
+	margin: 15px 0;
+	padding: 10px 15px;
+	border: 5px solid lightgray;
+}
+.pull-left {
+	float: left;
+	margin-right: 20px;
+}
+.pull-right{
+	float: right;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+footer {
+	background-color: black;
+	color: #39393b;
+	font-style: italic;
+	padding: 20px 0;
+}
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
