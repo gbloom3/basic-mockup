@@ -14,12 +14,12 @@ body {
 	width: 1170px;
 }
 header {
-	background-color: lightskyblue;
+	background-color: #87cefa;
 	padding: 2px 0;
 }
 .clear {
 	clear: both;
-	background-color: lightskyblue;
+	background-color: #87cefa;
 	padding: 5px 15px;
 	margin-bottom: 20px;
 }
